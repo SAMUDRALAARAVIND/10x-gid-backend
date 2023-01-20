@@ -1,6 +1,6 @@
 const express = require("express")
 const cors = require("cors")
-const port = 8080
+const port = 8080 || process.env.PORT
 const app = express() 
 const fileUpload = require("express-fileupload")
 const {User, Post}= require("./models/Schemas")
@@ -28,7 +28,10 @@ app.listen(port, () => {
     console.log(`App is listening on ${port}`);
 })
 
-/* Create a post */
+app.get("/", (res, resp) => {
+    resp.send(`<h1>You are in</h1>`)
+})
+
 
 app.post("/user", async (req, resp) => {
     const {username, password} = req.body

@@ -23,3 +23,7 @@ CLient Data:
     mv: [Function: mv]
   }
 }
+
+To create a react app build folder for the deployment 
+
+npm run build
