@@ -1,0 +1,25 @@
+MongoDB Atlas setup : 
+1) on the top left click on dropdown to create a new project
+2) After creating project click on build a database in the database section 
+3) Create a username & a password and then give IP Address to be 0.0.0.0/0
+
+
+
+CLient Data: 
+
+{
+  username: 'Aman ',
+  address: 'Banaglore',
+  description: 'I am aman from delhi',
+  image_file: {
+    name: 'yesh.jpg',
+    data: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 78 00 78 00 00 ff db 00 43 00 03 02 02 03 02 02 03 03 03 03 04 03 03 04 05 08 05 05 04 04 05 0a 07 07 06 ... 688557 more bytes>,
+    size: 688607,
+    encoding: '7bit',
+    tempFilePath: '',
+    truncated: false,
+    mimetype: 'image/jpeg',
+    md5: '910ac3b5b9d6961a898ae520e52acd3d',
+    mv: [Function: mv]
+  }
+}
